@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    font-family: Impact;
+    font-size: 75px;
+}
+
+.f1 {
+    color: red
+}
+
+.f2 {
+    color: blue;
+}
+
+.navi {
+    border: 5px double;
+
+    list-style: none;
+    width: 20%;
+    margin: auto;
+
+    text-align: center;
+    padding-left: 0;
+
+}
+
+p {
+    font-family: fantasy;
+    text-align: center;
+}
+
+img {
+    border: 10px solid;
+    width: 30%;
+    margin: auto;
+    display: block;
+
+}
+
+.navi>li {
+    display: inline-block;
+    border-style: outset;
+    border-radius: 5px;
+}
+
+.navi>li>a:hover {
+    background-color: whitesmoke;
+}
